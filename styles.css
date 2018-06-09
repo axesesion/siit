@@ -1,4 +1,46 @@
-div{
-    color: blue;
+
+#nav{
+    text-align: left;
+    background-color: #21636B;
+    color: white;
+    width: 15%;
+    height: 100%;
+    float: left;
     text-align: center;
+    padding-left: 20px;
+    position: fixed;
 }
+#linkuri a {
+    color: white;
+    text-align: left;
+
+}
+
+
+
+#banner{
+    width: 400px;
+    height: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+#pagina{
+    
+    margin-left: 300px;
+    margin-top: 0cm;
+    background-color: grey;
+    height: 200%;
+    padding-left: 20px;
+   
+}
+
+#linkuri{
+    display: block; 
+}
+#linkuri a {
+    display: block;
+}
+
