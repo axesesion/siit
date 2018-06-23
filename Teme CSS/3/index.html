@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<title>Tema pct 2</title>
+	
+	<link rel="stylesheet" type="text/css" href="style.css" />
+	 <script src="operations.js"></script> 
+	
+</head>
+<body>
+	<div id="container">
+		<header>
+			<h1>Enter Site Title</h1>
+			<p>Enter site Slogan</p>
+		</header>
+
+		<main>
+			
+			<div id="stanga">
+				<div id="meniu1">
+					<h3>&nbsp;&nbsp;&#8594;Main Meniu</h3>
+					<ul> 
+						<li><a href="">Basics</a></li>
+						<li><a href="">Mobile</a></li>
+						<li><a href="">Account</a></li>
+						<li><a href="">Menu Item 4</a></li>
+						<li><a href="">Menu Item 5</a></li>
+						<li><a href="">Menu Item 6</a></li>
+						<li><a href="">Menu Item 7</a></li>
+						<li><a href="">Menu Item 8</a></li>
+					</ul>
+				</div>
+				</div>
+			
+
+
+			
+			<article>
+				<h4>BASICS</h4>
+				<button class="accordion">How do I find my Windows product key?</button>
+				<div class="panel">
+				  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+				</div>
+
+				<button class="accordion">My Windows 7 product key won't verify. What's the problem?</button>
+				<div class="panel">
+				  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+				</div>
+
+				<button class="accordion">Can I download it here?</button>
+				<div class="panel">
+				  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+				</div>
+				<p>Lorem ipsum...
+				</p>
+				
+				
+			</article>
+
+			<footer>
+				<p>Copyright &copy; 2018</p>
+			</footer>
+
+
+		</main>
+		
+
+	</div>
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+    acc[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if (panel.style.display === "block") {
+            panel.style.display = "none";
+        } else {
+            panel.style.display = "block";
+        }
+    });
+}
+</script> 
+
+	
+</body>
+</html>

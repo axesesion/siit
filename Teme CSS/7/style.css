@@ -1,0 +1,160 @@
+
+body {
+	/*margin: 0;
+    padding: 0;*/
+	background-color: #71726E;
+}
+
+#container{
+	width: 935px;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+nav {
+	height: 5%;
+	background-color: #000000;
+	float: left;
+	width: 100%;
+	color: white;
+	
+	
+}
+
+nav ul {
+	list-style: none;
+	line-height: normal;
+	padding-left: 25px;
+	
+}
+
+nav li {
+	display: inline;
+	margin-left: 20px;
+	
+}
+
+nav a {
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	font-weight:normal;
+}
+
+header {
+	background-image: url(coffe.jpg);
+	background-repeat: no-repeat;
+   
+    background-position: center; 
+	height: 270px;
+	color: white;
+}
+
+header h1 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 46px;
+    font-style: italic;
+	font-weight: normal;
+	margin-top: 15px;
+    padding: 75px 0 0 140px;
+}
+
+header h2 {
+	margin-top: -25px;
+    padding: 0 0 0 140px;
+    font: italic 15px Georgia, "Times New Roman", Times, serif;
+    color: #FFFFFF;
+}
+
+#stanga {
+	background-color: beige;
+	float: left;
+    width: 235px;
+    padding: 0px 0px 0px 30px;
+	    height: 640px;
+	
+	
+}
+
+#stanga h2 {
+    height: 32px;
+}
+
+#x {
+    text-transform: lowercase;
+    font-size: 13px;
+    color: rgb(255, 255, 255);
+    padding: 3px;
+    border-width: initial;
+    border-style: none;
+    border-color: initial;
+    border-image: initial;
+    background: rgb(58, 7, 0);
+}
+
+#stanga a {
+	list-style: none;
+	color: rgb(51, 51, 51);
+}
+
+#stanga ul {
+	list-style: none;
+	line-height: 1.8;
+	padding-left: 10px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: rgb(51, 51, 51);
+	
+}
+
+.dreapta {
+	background-color: white;
+    float: right;
+    width: 630px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: justify;
+}
+
+.dreapta a:visited {
+    color: rgb(59, 7, 0);
+}
+
+.dreapta a:link {
+    color: rgb(59, 7, 0);
+}
+
+.dreapta h2 {
+	color: rgb(129, 19, 5);
+	    font-family: Georgia, "Times New Roman", Times, serif;
+    font-weight: normal;
+}
+
+#footer {
+	clear: both;
+	background-color: #999999;
+	
+	text-align: center;
+	vertical-align: middle;
+	line-height: 40px;
+	 
+}
+
+#footer a {
+	text-decoration: none;
+	color: black;
+}
+
+.meta {
+	padding: 0px 0px 40px;
+    border-top: 1px dotted rgb(209, 209, 209);
+}
+
+.byline {
+	float: left;
+}
+
+.links {
+	float: right;
+	padding-right: 10px;
+}

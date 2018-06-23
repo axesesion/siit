@@ -1,0 +1,104 @@
+body {
+
+    background-color:#E0D48A;
+}
+
+h1, h2, h3, h4 {
+	margin: 0;
+}
+#container {
+    background-color: #EBE2C1;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+   background-color: #AABF56; 
+	
+    text-align: right;
+    padding-right: 120px;
+	
+	padding-top: 50px;
+    height: 120px;
+	
+    
+}
+main {
+    padding: 0px 10px 10px 10px;
+}
+
+
+#stanga {
+    width: 190px;
+    background-color: azure;
+	float: left;
+	margin-top: 10px;
+}
+article {
+	float: right;
+	width: 655px;
+	border-left: 2px solid #8E8E8E;
+	padding: 10px;
+}
+
+
+
+footer{
+    background-color: #CBDE50;
+	clear: both;
+	text-align: center;
+	padding: 1px;
+    
+}
+
+#meniu1 a:visited {
+	color: mediumaquamarine;
+}
+
+
+#meniu1 h3 {
+	background-color: #29BC75
+}
+
+
+.accordion {
+	background-color: #FEFEFF;
+	color: forestgreen;
+	cursor: pointer;
+	padding: 18px;
+	width: 100%;
+	text-align: left;
+	font-size: 19px;
+	transition: 1s;
+	
+}
+
+.active, .accordion:hover{
+	background-color: #E7E2E2 ;
+}
+
+.panel {
+   
+    background-color: #A7E1E4;
+    display: none;
+    overflow: hidden;
+}
+
+.accordion:after {
+    content: '\02795'; /* Unicode character for "plus" sign (+) */
+    font-size: 13px;
+    color: #777;
+    float: right;
+    margin-left: 5px;
+}
+
+.active:after {
+    content: "\2796"; /* Unicode character for "minus" sign (-) */
+}
+
+article p {
+	padding-left: 15px;
+	padding-right: 15px;
+    text-align: justify
+}

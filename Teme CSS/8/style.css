@@ -1,0 +1,94 @@
+body {
+	height: 100%;
+    background-color: #10578D;
+}
+#header h1 {
+	font: normal 2.4em Georgia, "Times New Roman", Times, serif;
+    color: #FFFFFF;
+    padding-top: 25px;
+    margin-left: 20px;
+	
+}
+
+#header h1 a:link, h1 a:visited {
+    color: #FFFFFF;
+    text-decoration: none;
+	font-weight: normal;
+}
+
+#stanga a:link, a:visited {
+    
+    color: white;
+    /*padding: 14px 25px;*/
+    text-align: center;
+    text-decoration: none;
+}
+
+#container {
+	width: 850px;
+    margin: 60px auto 0 auto;
+    padding-bottom: 90px;
+    
+	
+}
+
+#header {
+	background-color: #282828;
+    letter-spacing: 1px;
+    width: 39em;
+}
+
+#header p {
+	color: #FFFFFF;
+    margin: 4px 0 0 21px;
+    padding-bottom: 12px;
+}
+
+#article {
+	width: 850px;
+    margin: 19px auto 0 auto;
+	
+}
+
+#stanga {
+	float: left;
+    width: 165px;
+    text-align: center;
+    color: #FFFFFF;
+	background-color: #10578D;
+}
+
+#stanga ul {
+	list-style-type: none;
+	/*padding: 4px 0px 10px 10px;*/
+	
+}
+
+#stanga li {
+	padding: 20px 35px 10px 0px;
+}
+
+
+
+#dreapta {
+	float: right;
+    width: 650px;
+	height: auto;
+	background-color: azure;
+	text-align: justify;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+#part2 {
+	color: #339BF4;
+}
+
+#part2 p {
+	padding-left: 30px;
+}
+
+footer {
+	clear: both;
+}

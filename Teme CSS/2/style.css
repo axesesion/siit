@@ -1,0 +1,136 @@
+body {
+
+    background-color:#E0D48A;
+}
+
+h1, h2, h3 {
+	margin: 0;
+}
+#container {
+    background-color: #EBE2C1;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+   /* background-color: #CBDE50; */
+	background-image: url(Capture.JPG);
+    text-align: right;
+    padding-right: 120px;
+	height: 35%;
+	padding-top: 50px;
+   
+	
+    
+}
+main {
+    padding: 0px 10px 10px 10px;
+}
+
+nav {
+    background-color: #FFFFCC;
+	padding: 1px;
+    margin: 8px;
+	
+	
+	
+}
+
+#stanga {
+    width: 190px;
+    background-color: azure;
+	float: left;
+	height: 85%;
+}
+article {
+	float: right;
+	width: 75%;
+	border-left: 2px solid #8E8E8E;
+	padding: 10px;
+}
+
+nav li {
+    display: inline;
+    width: 150px;
+	margin-right: 50px;
+    float: center;
+    padding: 8px;
+}
+
+footer{
+    background-color: #CBDE50;
+	clear: both;
+	text-align: center;
+	padding: 1px;
+    
+}
+
+#meniu1 a:visited {
+	color: mediumaquamarine;
+}
+#subscrib {
+	width: 280px;
+	background-color: #ECE3C2;
+	float: left;
+	margin-left: 25px;
+	
+}
+
+#other {
+	width: 280px;
+	background-color: #ECE3C2;
+	float: right;
+	margin-right: 25px;
+	border-left: 2px solid #8E8E8E;
+	padding-left: 35px;
+	
+}
+
+#block p {
+	overflow: auto;
+	padding-left: 15px;
+    height: 110px;
+}
+
+
+#block h3 {
+	background-color: #2DBB65;
+	
+}
+
+#meniu1 h3 {
+	background-color: #29BC75
+}
+
+#buton1 {
+	clear: both;
+    width: 100px;
+    height: 30px;
+    background-color: #BCD732;
+    float: left;
+    margin: 7px 15px 15px 25px;
+    text-align: center;
+    font-size: 12px;
+    padding: 10px 0px 3px 0px;
+}
+
+#buton2 {
+	
+    width: 100px;
+    height: 30px;
+    background-color: #BCD732;
+    float: right;
+    margin: 10px 205px 15px 25px;
+    text-align: center;
+    font-size: 12px;
+    padding: 10px 0px 3px 0px;
+}
+
+/*     display: block;
+    background-color: green;
+    height: 35px;
+    padding: 10px;
+    border: solid blue;
+    border-radius: 5px;
+    margin-right: 115px;*/
