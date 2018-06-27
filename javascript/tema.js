@@ -21,8 +21,9 @@
 function compara(a,b) {
     if(a==b){
         return true;
+    }else { 
+        return false;  
     }
-    else return false;  
 }
 
 //2)	O functie care compara 2 valori si returneaza -1 daca primul e mai mic ca al doilea, 
@@ -31,13 +32,13 @@ var a;
 var b;
 switch(true) {
     case (a<b):
-        alert: ("-1")
+        alert: ("-1");
         break;
     case (a==b)
-        alert: ("0")
+        alert: ("0");
         break;
     case (a>b)
-        alert: ("1")
+        alert: ("1");
         break;
 }
 
@@ -56,7 +57,7 @@ document.getElementById("maxim").innerHTML = Math.max(a,b);
 
 
 
-//4 4)	O functie care primeste 2 valori si returneaza minimul dintre cele 2
+// 4)	O functie care primeste 2 valori si returneaza minimul dintre cele 2
 var x, y, max;
 function min() {
     if(x>y){
@@ -71,16 +72,43 @@ document.getElementById("minim").innerHTML = Math.min(x,y);
 
 // 5) O functie care intoarce suma primelor N numere naturale pozitive
 function sum(n){
+    var sum=0;
     for(i=0;i<n;++i){
+        if(i>=0){
         suma = suma + i;
+    }
     }
     return suma;
 }
 
 
-//  6)	O functie care verifica daca N este numar prim (restul impartirii la 1 si la N ==0)
-function isPrime(num) {
-    for(var i = 2; i < num; i++)
-      if(num % i === 0) return false;
-    return num !== 1;
+//  6)	O functie care verifica daca N este numar prim (are exact doi divizori: numărul 1 și numărul în sine   restul impartirii la 1 si la N ==0)
+function isPrime(nr) {
+    for(var i = 2; i < nr; i++){
+      if(nr % i === 0){ 
+          return false; 
+          break;
+        }
+    }
+    //return num !== 1;
+    return true;
   }
+
+
+  //7)	O functie care intoarce suma primelor N numere prime
+function isPrime(nr) {
+    for(var i = 2; i < nr; i++){
+        if(nr % i === 0){ 
+            return false;
+        } else { return true;}
+        
+    }
+    
+}
+function sumPrime(nr){
+    var suma = 0;
+    var counter = 0;
+    while {
+
+    }
+}
